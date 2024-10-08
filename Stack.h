@@ -21,6 +21,6 @@ class Stack : public LinkedList<T>{
 			this->first = B;
 			delete A;
 			this->current_size--;
-			return true;
-			}
+			return true;    
+			}  
 };
